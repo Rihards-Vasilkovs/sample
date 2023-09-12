@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <footer id="myFooter"></footer>
+    <script>
+        const footerContent = {
+            id: 1,
+            aboutus: "We come from Naples",
+            contact: "72727272",
+            address: "Naples, Street Name, Number",
+            logo: "images/logo-naples.jpeg",
+            privacypolicy: "Our customer privacy policies",
+            help: "FAQ, chat with employee"
+            
+
+        }
+        console.log(footerContent.aboutus);
+
+        myFooter.innerHTML += "<div id='address'>"
+        myFooter.innerHTML += "<h1>" + footerContent.aboutus + "</h1>";
+        myFooter.innerHTML += "<p1>" + footerContent.contact + "</p1>";
+        myFooter.innerHTML += "<img src 'images/logo-naples.jpeg' alt='logo of pizzeria'></img>";
+        myFooter.innerHTML += "</div>"
+    </script>
+</body>
+</html>
